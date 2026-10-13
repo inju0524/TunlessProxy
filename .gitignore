@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------- 绝不入库
+# 运行期数据目录：配置、图标、L3 私有配置（npmrc/gitconfig 里可能有 token）、日志
+data/
+
+# 打包产物与 PyInstaller 中间件
+build/
+dist/
+*.spec.bak
+
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------- 测试产物
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+tests/gui_smoke*.png
+tests/preview/
+*.log
+
+# ---------------------------------------------------------------- 编辑器 / 系统
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

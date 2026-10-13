@@ -1,0 +1,17 @@
+# 统一换行符，避免 Windows 上提交出满屏的 CRLF 噪音
+* text=auto
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.spec  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# 二进制
+*.png   binary
+*.ico   binary
+*.exe   binary
+*.dll   binary
+*.lnk   binary
